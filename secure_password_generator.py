@@ -1,6 +1,6 @@
 # программа генерирует заданное количество паролей и включает в себя умную настройку
 # на длину пароля, а также на то, какие символы требуется в него включить, а какие нет
-from random import
+from random import randint
 
 quantity_of_password_new, length_of_password_new = "количество паролей", "длину пароля"
 actual_name = ""
