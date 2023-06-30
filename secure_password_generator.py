@@ -2,7 +2,7 @@
 # на длину пароля, а также на то, какие символы требуется в него включить, а какие нет
 from random import *
 
-quantity_of_password, length_of_password = "количество паролей", "длину пароля"
+quantity_of_password_new, length_of_password_new = "количество паролей", "длину пароля"
 actual_name = ""
 digit = "0123456789"
 lowercase_letters = "abcdefghijklmnopqrstuvwxyz"
