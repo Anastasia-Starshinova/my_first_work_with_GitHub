@@ -11,7 +11,6 @@ punctuation = "!#$%&*+-=?@^_."
 
 print("Привет!")
 
-
 def return_number(actual_name):
     print("Укажите", actual_name, "для генерации")
     quantity = input()
