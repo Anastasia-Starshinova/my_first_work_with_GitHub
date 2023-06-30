@@ -1,6 +1,4 @@
-# программа генерирует заданное количество паролей и включает в себя умную настройку
-# на длину пароля, а также на то, какие символы требуется в него включить, а какие нет
-from random import randint
+from random import *
 
 quantity_of_password_new, length_of_password_new = "количество паролей", "длину пароля"
 actual_name = ""
@@ -29,8 +27,8 @@ def return_number(actual_name):
             return return_number(actual_name)
 
 
-count_of_password = return_number(quantity_of_password)
-len_of_password = return_number(length_of_password)
+count_of_password = return_number(quantity_of_password_new)
+len_of_password = return_number(length_of_password_new)
 
 print("Количество паролей = ", count_of_password, "\n", "Длина пароля = ", len_of_password, sep="")
 
