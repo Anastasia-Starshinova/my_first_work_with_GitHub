@@ -93,5 +93,4 @@ for i in range(count_of_password):
         new_password += choice(x)
     final_password.append(new_password)
 
-# print("Ваши пароли готовы:", "\n", *final_password, sep="")
 print("Ваши пароли готовы:", "\n", ", ".join(final_password), sep="")
